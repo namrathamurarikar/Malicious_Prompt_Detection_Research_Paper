@@ -1,0 +1,8 @@
+ABLATION STUDY REPORT: Hindi
+======================================================================
+
+    experiment  use_focal_loss  use_llrd  use_filtering  accuracy       f1  precision   recall
+  FL_LLRD_Filt            True      True           True  0.988430 0.950355   0.957143 0.943662
+  CE_LLRD_Filt           False      True           True  0.983471 0.924242   1.000000 0.859155
+FL_NoLLRD_Filt            True     False           True  0.991736 0.963504   1.000000 0.929577
+FL_LLRD_NoFilt            True      True          False  0.991736 0.964029   0.985294 0.943662
