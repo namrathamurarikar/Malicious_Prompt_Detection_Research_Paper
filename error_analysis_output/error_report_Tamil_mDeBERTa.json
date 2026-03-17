@@ -1,0 +1,31 @@
+{
+  "language": "Tamil",
+  "model": "mDeBERTa",
+  "total_samples": 866,
+  "accuracy": 0.9884526558891455,
+  "confusion_matrix": {
+    "tn": 758,
+    "fp": 4,
+    "fn": 6,
+    "tp": 98,
+    "precision": 0.9607843137254902,
+    "recall": 0.9423076923076923,
+    "f1": 0.9514563106796117,
+    "accuracy": 0.9884526558891455
+  },
+  "error_patterns": {
+    "total_errors": 10,
+    "false_negatives": 6,
+    "false_positives": 4,
+    "fn_avg_length": 46.0,
+    "fp_avg_length": 42.0,
+    "fn_avg_words": 7.0,
+    "fp_avg_words": 6.0,
+    "fn_categories": {
+      "Contains Numbers/Code": 6
+    },
+    "fp_categories": {
+      "Security-Related Topic": 4
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "language": "Hindi",
+  "model": "mmBERT",
+  "total_samples": 866,
+  "accuracy": 0.9792147806004619,
+  "confusion_matrix": {
+    "tn": 754,
+    "fp": 8,
+    "fn": 10,
+    "tp": 94,
+    "precision": 0.9215686274509803,
+    "recall": 0.9038461538461539,
+    "f1": 0.9126213592233009,
+    "accuracy": 0.9792147806004619
+  },
+  "error_patterns": {
+    "total_errors": 18,
+    "false_negatives": 10,
+    "false_positives": 8,
+    "fn_avg_length": 46.1,
+    "fp_avg_length": 42.0,
+    "fn_avg_words": 7.0,
+    "fp_avg_words": 6.0,
+    "fn_categories": {
+      "Contains Numbers/Code": 10
+    },
+    "fp_categories": {
+      "Security-Related Topic": 8
+    }
+  }
+}
